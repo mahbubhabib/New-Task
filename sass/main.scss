@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0;outline: 0;box-sizing: border-box;background-color: #D7D7D7; }
+h2{text-align: center;padding: 20px;
+@media all and (max-width:320px){padding: 10px 0px;};
+@media all and (max-width:300px){padding: 8px 0px;};
+}
+.main{
+   width: 100%;
+   overflow: hidden;
+   // img section start
+   .img-section img{width: 100%;height: 300px; }
+   // img section end
+   // header start
+   .hedder-section{width: 90%;margin: 0 auto;
+     
+      h2  {text-align: center;
+          @media all and (max-width:280px){
+         font-size: 21px;
+         }}
+      p{text-align:left;
+         @media all and (max-width:280px){width: 90%;
+            font-size: 14px;
+            margin: 0 auto;padding: 5px;};
+            @media all and (max-width:320px){width: 90%;
+               font-size: 14px;
+               margin: 0 auto;padding: 5px;} }
+      #red-clor{color: red; 
+         
+      }
+   }
+   // head section start
+   // table section start
+   .table{width: 100% ;margin: 25px auto;
+      @media all and (max-width:280px){margin: 25px auto 10px;}
+      
+      .table-1{overflow: hidden;clear: both;
+         border-top: 1px solid  rgb(243, 237, 237);border-bottom:1px solid   rgb(243, 237, 237);
+      .box1{width: 30%;
+         float: left;
+         margin-left: 3%;
+         border-right: 1px solid
+         rgb(243, 237, 237);
+         padding: 26px;
+         @media all and (max-width:320px){padding: 44px 14px;};}
+      .box2{width:
+          32%;float: left;margin: 0 auto;padding: 11px ;border-right: 1px solid  rgb(243, 237, 237);text-align: center;overflow: hidden;
+         p{padding: 3px;}
+      }
+      .box3{width: 100%;
+         margin: 0 auto;
+         padding: 26px;
+         text-align: center;}
+      }
+    }
+   // table section end
+   // list section start
+   .list-section{width: 90%;margin: 0 auto;
+      .list-class{
+         padding: 10px;border-bottom: 1px solid  rgb(243, 237, 237);
+         p{
+            padding: 4px 0px;
+            text-align: justify;
+            @media all and (max-width:320px){padding: 0px}; 
+            @media all and (max-width:300px){padding: 0px};
+         }
+      }
+   }
+   // list section end
+   // direction-class start
+   .direction-class{width: 90%;margin: 0 auto;overflow: hidden;
+      p{padding: 10px;border-bottom: 1px solid  rgb(243, 237, 237); text-align: justify;
+         @media all and (max-width:300px){padding: 6px 13px; }
+      }
+      .strong-part{float: left;
+         font-weight: 500;
+         font-size: 29px;
+         padding: 0px 37px 20px;
+         
+         @media all and (max-width:320px){padding: 0px 16px 1px; }
+         
+         
+      }
+   }
+   // direction-class end
+   
+
+}
